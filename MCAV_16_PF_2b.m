@@ -57,7 +57,7 @@ obs_resultMatrix = zeros(1, 12);
 disp('Controlability - mode analysis')
 %checking if system is controllable
 for i = 1:12
-    aux=W(:,i)'*B; %grau de contrabilidade dos modos (só é preciso que uma entrada seja controlavel) - interpratar quais as entradas que são
+    aux=W(:,i)'*B; %grau de contrabilidade dos modos (só é preciso que uma entrada seja controlavel) - interpretar quais as entradas que são
     disp(i)
     disp(aux)
 end
